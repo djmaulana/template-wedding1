@@ -14,16 +14,17 @@ const Footer = () => {
             width={200}
             height={150}
             className='max-w-xs'
+            data-aos='zoom-in'
             />
         </div>
         <Hr />
         <div className={montserrat.className}>
-            <p className='text-[12px] font-light mx-10'>
+            <p data-aos='zoom-in' className='text-[12px] font-light mx-10'>
             Suatu kehormatan dan kebahagiaan bagi kami, apabila bapak ibu bersedia hadir dan memberikan restunya. Atas kehadiran dan berkahnya kami ucapkan terima kasih.
             </p>
         </div>
         <div className={monte.className}>
-            <h1 className='text-[25px] mt-5'>
+            <h1 data-aos='zoom-in' className='text-[25px] mt-5'>
                 Juliet
                 <br />&
                 <br /> Romeo

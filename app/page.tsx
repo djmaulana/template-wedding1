@@ -1,8 +1,28 @@
+'use client'
+
 import Image from 'next/image'
 import { monte } from '@/styles'
 import Link from 'next/link'
+import { useEffect, useRef, useState } from 'react';
 
 export default function Home() {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audio = useRef<HTMLAudioElement | undefined>(
+    typeof Audio !== "undefined" ? new Audio("audio/music.mp3") : undefined
+  );
+  useEffect(() => {
+    audio.current?.loop
+  })
+
+  const handelMusic = () => {
+    if (isPlaying) {
+      audio.current?.pause();
+    } else {
+      audio.current?.play();
+    }
+    setIsPlaying(!isPlaying);
+  }
+
   return (
     <main className="relative flex min-h-screen md:w-2/5 bg-black overflow-hidden">
       <div className='flex z-0 inset-0 flex-col justify-center w-screen text-center h-[100vh]'>
@@ -48,7 +68,9 @@ export default function Home() {
           <Link
           href='/home'
           >
-            <button className='bg-[#823E37] shadow-xl text-sm font-light mt-20 p-2 rounded-[10px]'>
+            <button
+            onClick={handelMusic} 
+            className='bg-[#823E37] shadow-xl text-sm font-light mt-20 p-2 rounded-[10px]'>
               Buka Undangan
             </button>
           </Link>

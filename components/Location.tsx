@@ -15,7 +15,7 @@ const Location = () => {
             />
         </div>
         <div className={monte.className}>
-            <h1 className='text-[40px]'>
+            <h1 className='text-[40px]' data-aos='fade-right'>
                 Location
             </h1>
         </div>
@@ -28,11 +28,13 @@ const Location = () => {
             style={{border: '0px'}} 
             allowFullScreen={true} 
             loading="lazy" 
-            referrerPolicy="no-referrer-when-downgrade"> 
+            referrerPolicy="no-referrer-when-downgrade"
+            data-aos='fade-in'
+            > 
             </iframe>
         </div>
         <div className={montserrat.className}>
-            <p className='text-[12px] leading-tight font-light mt-3 mx-12'>
+            <p className='text-[12px] leading-tight font-light mt-3 mx-12' data-aos='fade-in'>
             Jl. Letnan Harun No.1, Sukamulya, Kec. Bungursari, Kab. Tasikmalaya, Jawa Barat 46151
             </p>
         </div>

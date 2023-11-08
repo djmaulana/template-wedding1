@@ -15,12 +15,12 @@ const Message = () => {
             />
         </div>
         <div className={monte.className}>
-            <h1 className='text-[40px]'>
+            <h1 className='text-[40px]' data-aos='fade-right'>
                 Send Message
             </h1>
         </div>
         <div className={montserrat.className}>
-            <p className='mx-20 mt-2 text-[12px] font-light leading-tight'>
+            <p className='mx-20 mt-2 text-[12px] font-light leading-tight' data-aos='fade-in'>
             Berikan Ucapan Salam dan Doa kepada Kedua Mempelai
             </p>
         </div>
@@ -42,7 +42,7 @@ const Message = () => {
                     />
                     <span className='text-sm' data-aos='zoom-in'>Konfirmasi Kehadiran</span>
                 </label>
-                <button type="submit" data-aos='zoom-in' className="bg-[#823E37] text-sm text-gray-200 py-1 px-4 mt-5 rounded-full">Submit</button>
+                <button type="submit" data-aos='zoom-in' className="bg-[#823E37] text-sm text-gray-200 py-1 shadow-2xl px-4 mt-5 rounded-full">Submit</button>
             </form>
         </div>
         <Hr />

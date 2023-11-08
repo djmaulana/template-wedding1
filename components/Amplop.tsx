@@ -16,10 +16,10 @@ const Amplop = () => {
             />
         </div>
         <div className={monte.className}>
-            <h1 className='text-[40px] '>Amplop Digital</h1>
+            <h1 className='text-[40px] ' data-aos='fade-right'>Amplop Digital</h1>
         </div>
         <div className={montserrat.className}>
-            <p className='text-[12px] font-light mx-10 leading-tight mt-3'>
+            <p className='text-[12px] font-light mx-10 leading-tight mt-3' data-aos='fade-in'>
             Doa Berkat Anda adalah anugerah yang sangat berarti bagi kami. Dan jika memberi merupakan ungkapan cinta Anda, Anda bisa memberikan hadiah secara cashless.
             </p>
         </div>
