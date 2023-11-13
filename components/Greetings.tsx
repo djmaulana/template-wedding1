@@ -13,13 +13,13 @@ const Greetings = () => {
         <div className={montserrat.className}>
             <p className='text-[12px] leading-tight mx-20 font-light' data-aos='zoom-in'>Dengan segala hormat.Kami mengundang Bapak/Ibu/Adik serta sanak saudara untuk hadir pada acara pernikahan kami:</p>
         </div>
-        <div className='relative max-w-xs overflow-hidden bg-cover bg-center bg-no-repeat w-[150px] h-[200px] mt-5 mx-auto rounded-t-[70px] '>
+        <div className='relative max-w-xs overflow-hidden bg-cover bg-center bg-no-repeat w-[150px] h-[200px] mt-5 mx-auto  '>
             <Image
             src='/woman.jpg'
             alt='woman'
             width={150}
             height={100}
-            className='max-w-xs'    
+            className='max-w-xs rounded-t-[70px]'    
             data-aos='zoom-in'       
             />
             
@@ -33,13 +33,13 @@ const Greetings = () => {
             </p>
         </div>
         <p className={monte.className} style={{marginTop: '20px', marginBottom: '20px', fontSize: '20px'}}>&</p>
-        <div className='relative max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat w-[150px] h-[200px] mt-5 mx-auto rounded-t-[70px] '>
+        <div className='relative max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat w-[150px] h-[200px] mt-5 mx-auto '>
             <Image
             src='/man.jpg'
             alt='man'
             width={150}
             height={200}
-            className='max-w-xs' 
+            className='max-w-xs rounded-t-[70px]' 
             data-aos='zoom-in'          
             />
         </div>

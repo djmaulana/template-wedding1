@@ -4,12 +4,18 @@ import Image from 'next/image'
 import { monte } from '@/styles'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react';
+import { useSearchParams  } from 'next/navigation';
 
 export default function Home() {
   const [isPlaying, setIsPlaying] = useState(false);
   const audio = useRef<HTMLAudioElement | undefined>(
     typeof Audio !== "undefined" ? new Audio("audio/music.mp3") : undefined
   );
+  const searchParams = useSearchParams()
+  let namaTamu = searchParams.get('guest')
+  if (namaTamu != null){
+    namaTamu = namaTamu.replace(/-/g, ' ');
+  }
   useEffect(() => {
     audio.current?.loop
   })
@@ -67,7 +73,7 @@ export default function Home() {
               <h1>Habibuloh</h1>
             </div>
             <p className='mt-10 text-sm mb-5'>Kepada Bapak/Ibu/Saudara/i</p>
-            <h2>Nama Tamu</h2>
+            <h2>{namaTamu}</h2>
             <Link
             href='/home'
             >

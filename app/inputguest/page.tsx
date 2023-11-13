@@ -14,7 +14,7 @@ const inputguest = () => {
     }
     let guest = namaTamu
     guest = guest.replace(/\s+/g, '-').toLowerCase();
-    const link = `https://ninda-dede-wedding-invitation.vercel.app/?guest=${guest}`;
+    const link = `https://dewi-habibuloh-wedding-invitation.vercel.app/?guest=${guest}`;
     setInvitationLink(link);
   };    
   return (

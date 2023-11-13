@@ -58,13 +58,13 @@ const Savethedate = () => {
                     </p>
                 </div>
             </div>
-            <div className='absolute right-0 max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat w-[200px]  h-[400px] mt-5 mx-auto rounded-tl-[150px] '>
+            <div className='absolute right-0 max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat w-[200px]  h-[400px] mt-5 mx-auto  '>
             <Image
             src='/img-4.jpg'
             alt='img-1'
             width={700}
             height={0}
-            className='max-w-xs'
+            className='max-w-xs rounded-tl-[150px]'
             data-aos='fade-left'       
             />
         </div>

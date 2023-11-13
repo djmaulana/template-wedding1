@@ -7,13 +7,13 @@ import { Hr } from '.'
 const Footer = () => {
   return (
     <div className='relative bg-black text-center md:w-2/5 md:overflow-hidden text-gray-200 p-10'>
-        <div className='ml-14 mt-10 h-[200] w-[160] rounded-bl-[70px] relative max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat'>
+        <div className='ml-14 mt-10 h-[200] w-[160]  relative max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat'>
             <Image 
             src='/img-2.jpg'
             alt='footer'
             width={200}
             height={150}
-            className='max-w-xs'
+            className='max-w-xs rounded-bl-[70px]'
             data-aos='zoom-in'
             />
         </div>
