@@ -54,7 +54,7 @@ const Hero = () => {
   
   
   return (
-    <div className='relative flex min-h-screen md:w-2/5 md:overflow-hidden z-0 inset-0 flex-col justify-center w-screen text-center '>
+    <div className='relative flex min-h-screen md:w-2/5 md:overflow-hidden z-0 inset-0 flex-col  w-screen  '>
     <div className='w-full'>
       <Image 
       src='/img-3.jpg'
@@ -99,7 +99,7 @@ const Hero = () => {
         />
       </button>
     </div>
-    <div className='absolute z-10 text-gray-200 bg-black bg-opacity-50 w-full h-[90vh] left-0 right-0'>
+    <div className='absolute z-10 text-center text-gray-200 bg-black bg-opacity-50 w-full h-4/5 left-0 right-0'>
       <div className='top-1/2 translate-y-1/2'>
         <div className={monte.className} style={{'fontSize': 35}}>
           <h1 className='text-[45px]'>The Wedding of</h1>

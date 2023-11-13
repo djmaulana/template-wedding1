@@ -29,7 +29,7 @@ const Savethedate = () => {
             
             />
         </div>
-        <div className='grid grid-cols-2 relative'>
+        <div className='grid grid-cols-2 relative '>
             <div className=' h-[420px] flex flex-col justify-center items-center'>
                 <div className={monte.className}>
                     <h1 className='text-[30px]' data-aos='fade-in'>

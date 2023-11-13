@@ -19,14 +19,14 @@ const Galleries = () => {
                 Our Galleries
             </h1>
         </div>
-        <div className='grid grid-cols-2  mt-10 '>
-            <div className=' '>
+        <div className='grid grid-cols-2 gap-0 mt-10 mx-auto'>
+            <div className='w-full '>
                 <Image 
                 src='/img-2.jpg'
                 alt='img'
                 width={250}
                 height={258}
-                className=''
+                className='w-full'
                 data-aos='fade-right'
                 />
                 <Image 
@@ -34,6 +34,7 @@ const Galleries = () => {
                 alt='img'
                 width={250}
                 height={114}
+                className='w-full'
                 data-aos='fade-out'
                 />
              
@@ -42,15 +43,17 @@ const Galleries = () => {
                 alt='img'
                 width={250}
                 height={114}
+                className='w-full'
                 data-aos='fade-in'
                 />
             </div>
-            <div className=''>
+            <div className='w-full'>
                 <Image 
                 src='/img-3.jpg'
                 alt='img'
                 width={250}
                 height={114}
+                className='w-full'
                 data-aos='fade-left'
                 />
                 <Image 
@@ -58,6 +61,7 @@ const Galleries = () => {
                 alt='img'
                 width={250}
                 height={114}
+                className='w-full'
                 data-aos='fade-up'
                 />
                    <Image 
@@ -65,6 +69,7 @@ const Galleries = () => {
                 alt='img'
                 width={250}
                 height={114}
+                className='w-full'
                 data-aos='fade-in'
                 />
                
