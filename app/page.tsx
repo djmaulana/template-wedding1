@@ -73,7 +73,7 @@ export default function Home() {
               <h1>Habibuloh</h1>
             </div>
             <p className='mt-10 text-sm mb-5'>Kepada Bapak/Ibu/Saudara/i</p>
-            <h2>{namaTamu}</h2>
+            <h2 className='capitalize '>{namaTamu}</h2>
             <Link
             href='/home'
             >
