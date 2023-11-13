@@ -5,6 +5,7 @@ const page = () => {
 
   return (
     <main className='overflow-hidden'>
+      <div className='pattern'></div>
       <Hero />
       <Greetings />
       <Savethedate />
@@ -16,5 +17,6 @@ const page = () => {
     </main>
   )
 }
+
 
 export default page

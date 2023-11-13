@@ -36,8 +36,9 @@ const Galleries = () => {
                 height={114}
                 data-aos='fade-out'
                 />
-                <Image 
-                src='/img-7.jpg'
+             
+                 <Image 
+                src='/man.jpg'
                 alt='img'
                 width={250}
                 height={114}
@@ -53,19 +54,20 @@ const Galleries = () => {
                 data-aos='fade-left'
                 />
                 <Image 
-                src='/img-5.jpg'
+                src='/woman.jpg'
                 alt='img'
                 width={250}
                 height={114}
                 data-aos='fade-up'
                 />
-                <Image 
-                src='/img-6.jpg'
+                   <Image 
+                src='/img-1.jpg'
                 alt='img'
                 width={250}
                 height={114}
                 data-aos='fade-in'
                 />
+               
             </div>
         </div>
         <Hr />

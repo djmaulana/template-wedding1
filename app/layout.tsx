@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Montserrat({ subsets: ['latin'], weight:['300','400', '500', '600'] })
 
 export const metadata: Metadata = {
-  title: 'Sample Template 1',
-  description: 'Digital wedding invitation templates are available from Neo Industries. If you are interested, please contact us to discuss your needs and goals.',
+  title: 'Habibuloh-Neng-Wedding-Invitation',
+  description: 'Wedding invitation from Neng Dewi & Habibuloh wish Sakinah Mawadah & Warohmah',
 }
 
 export default function RootLayout({
@@ -16,8 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className} style={{background: '#823E37'}}>
-        <div className='pattern'></div>
+      <body className={inter.className} >
         {children}
       </body>
     </html>

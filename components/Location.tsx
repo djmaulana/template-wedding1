@@ -21,7 +21,7 @@ const Location = () => {
         </div>
         <div className='mt-10'>
             <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.3287527196694!2d108.19470787413036!3d-7.316917971945412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f50d347e94c7f%3A0xd0cec9ea331a44d4!2sGedung%20Serbaguna%20Balekota%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1699427708818!5m2!1sid!2sid" 
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3956.0085194490766!2d108.3046149750017!3d-7.464307792547199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjcnNTEuNSJTIDEwOMKwMTgnMjUuOSJF!5e0!3m2!1sid!2sid!4v1699863980298!5m2!1sid!2sid"
             width="320" 
             height="300" 
             className='mx-auto z-0'
@@ -35,7 +35,7 @@ const Location = () => {
         </div>
         <div className={montserrat.className}>
             <p className='text-[12px] leading-tight font-light mt-3 mx-12' data-aos='fade-in'>
-            Jl. Letnan Harun No.1, Sukamulya, Kec. Bungursari, Kab. Tasikmalaya, Jawa Barat 46151
+            Kp. Anteghilir Rt. 14 Rw. 01 Ds. Malatisuka Kec. Gunungtanjung Tasikmalaya
             </p>
         </div>
         <Hr />

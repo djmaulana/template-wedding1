@@ -13,21 +13,23 @@ const Greetings = () => {
         <div className={montserrat.className}>
             <p className='text-[12px] leading-tight mx-20 font-light' data-aos='zoom-in'>Dengan segala hormat.Kami mengundang Bapak/Ibu/Adik serta sanak saudara untuk hadir pada acara pernikahan kami:</p>
         </div>
-        <div className='relative max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat w-[150px] h-[200px] mt-5 mx-auto rounded-t-[70px] '>
+        <div className='relative max-w-xs overflow-hidden bg-cover bg-center bg-no-repeat w-[150px] h-[200px] mt-5 mx-auto rounded-t-[70px] '>
             <Image
             src='/woman.jpg'
             alt='woman'
-            fill
+            width={150}
+            height={100}
             className='max-w-xs'    
             data-aos='zoom-in'       
             />
+            
         </div>
         <h1 data-aos='zoom-in' className={monte.className} style={{marginTop: '10px', fontSize: '25px'}}>
-            Juliet Capulet
+            Neng Dewi Titin
         </h1>
         <div className={montserrat.className}>
-            <p data-aos='zoom-in' className='text-[10px] mt-1 font-light'>Putri Bapak Lord Capulet
-            <br /> & Ibu Lady Capulet
+            <p data-aos='zoom-in' className='text-[10px] mt-1 font-light'>Putri Bapak Mamat 
+            <br /> & Ibu Cuch
             </p>
         </div>
         <p className={monte.className} style={{marginTop: '20px', marginBottom: '20px', fontSize: '20px'}}>&</p>
@@ -35,17 +37,18 @@ const Greetings = () => {
             <Image
             src='/man.jpg'
             alt='man'
-            fill
+            width={150}
+            height={200}
             className='max-w-xs' 
             data-aos='zoom-in'          
             />
         </div>
         <h1 data-aos='zoom-in' className={monte.className} style={{marginTop: '10px', fontSize: '25px'}}>
-            Juliet Capulet
+            Habibuloh
         </h1>
         <div className={montserrat.className} style={{marginBottom:'40px'}}>
-            <p data-aos='zoom-in' className='text-[10px] mt-1 font-light'>Putri Bapak Lord Capulet
-            <br /> & Ibu Lady Capulet
+            <p data-aos='zoom-in' className='text-[10px] mt-1 font-light'>Putra Bapak Salim 
+            <br /> & Ibu Jojoh
             </p>
         </div>
         <Hr />

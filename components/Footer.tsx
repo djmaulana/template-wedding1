@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='relative bg-black text-center md:w-2/5 md:overflow-hidden text-gray-200 p-10'>
         <div className='ml-14 mt-10 h-[200] w-[160] rounded-bl-[70px] relative max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat'>
             <Image 
-            src='/footer.jpg'
+            src='/img-2.jpg'
             alt='footer'
             width={200}
             height={150}
@@ -25,9 +25,9 @@ const Footer = () => {
         </div>
         <div className={monte.className}>
             <h1 data-aos='zoom-in' className='text-[25px] mt-5'>
-                Juliet
+                Neng Dewi Titin
                 <br />&
-                <br /> Romeo
+                <br /> Habibuloh
             </h1>
         </div>
         <div className={montserrat.className} style={{fontSize: '10px', fontWeight: 'lighter', marginTop: '30px'}}>

@@ -9,7 +9,7 @@ const Savethedate = () => {
             <h1 className='text-[40px]' data-aos='fade-right'>Save The Date</h1>
         </div>
         <p data-aos='fade-in' className={montserrat.className} style={{fontSize:'10px', fontWeight: 'lighter'}}>
-            05 November 2025
+            23 Desember 2023
         </p>
         <div className='absolute -bottom-20 ml-24'>
             <Image 
@@ -38,10 +38,10 @@ const Savethedate = () => {
                 </div>
                 <div className={montserrat.className} style={{marginTop: '5px'}} >
                     <p className='text-[12px] font-light' data-aos='fade-in'>
-                        Pukul : 08:00 WIB
+                        Pukul : 09:00 WIB
                     </p>
-                    <p className='text-[11px] font-light' data-aos='fade-in'>
-                        Alamat : Gedung Serba Guna
+                    <p className='text-[11px] font-light mx-2' data-aos='fade-in'>
+                        Alamat : Kediaman Mempelai Wanita
                     </p>
                 </div>
                 <div className={monte.className} style={{marginTop: '10px'}} data-aos='fade-in'>
@@ -51,16 +51,16 @@ const Savethedate = () => {
                 </div>
                 <div className={montserrat.className} style={{marginTop: '5px'}}>
                     <p className='text-[12px] font-light' data-aos='fade-in'>
-                        Pukul : 10:00 WIB
+                        Pukul : 11:00 WIB
                     </p>
                     <p className='text-[11px] font-light' data-aos='fade-in'>
-                        Alamat : Gedung Serba Guna
+                        Alamat : Kediaman Mempelai Wanita
                     </p>
                 </div>
             </div>
-            <div className='absolute right-0 max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat w-[200px]  h-[400px] mt-5 mx-auto rounded-tl-[200px] '>
+            <div className='absolute right-0 max-w-xs overflow-hidden bg-cover bg-[50%] bg-no-repeat w-[200px]  h-[400px] mt-5 mx-auto rounded-tl-[150px] '>
             <Image
-            src='/img-1.jpg'
+            src='/img-4.jpg'
             alt='img-1'
             width={700}
             height={0}
