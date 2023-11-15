@@ -29,7 +29,7 @@ const Greetings = () => {
         </h1>
         <div className={montserrat.className}>
             <p data-aos='zoom-in' className='text-[10px] mt-1 font-light'>Putri Bapak Mamat 
-            <br /> & Ibu Cuch
+            <br /> & Ibu Cucu
             </p>
         </div>
         <p className={monte.className} style={{marginTop: '20px', marginBottom: '20px', fontSize: '20px'}}>&</p>
